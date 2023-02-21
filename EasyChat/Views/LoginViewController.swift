@@ -19,7 +19,6 @@ class LoginViewController: UIViewController {
 
     var statusLabel: UILabel = {
         let label = UILabel()
-        label.text = "Sign In"
         label.textAlignment = .center
         label.font = UIFont.systemFont(ofSize: 25, weight: .light)
         return label
@@ -28,6 +27,7 @@ class LoginViewController: UIViewController {
     var loginLabel: UILabel = {
         let label = UILabel()
         label.text = "login"
+        label.textColor = #colorLiteral(red: 0.4756349325, green: 0.4756467342, blue: 0.4756404161, alpha: 1)
         return label
     }()
 
@@ -40,6 +40,7 @@ class LoginViewController: UIViewController {
     var passwordLabel: UILabel = {
         let label = UILabel()
         label.text = "password"
+        label.textColor = #colorLiteral(red: 0.4756349325, green: 0.4756467342, blue: 0.4756404161, alpha: 1)
         return label
     }()
 
@@ -72,15 +73,10 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
         setupConstraints()
         bindViewModel()
+        enterButtonPressed()
     }
 
-    func bindViewModel() {
-        viewModel.statusText.bind { statusText in
-            DispatchQueue.main.async {
-                self.statusLabel.text = statusText
-            }
-        }
-    }
+
 
 
 }
