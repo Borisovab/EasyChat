@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		0065180F29A3CEA100B75A95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0065180E29A3CEA100B75A95 /* AppDelegate.swift */; };
 		0065181129A3CEA100B75A95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0065181029A3CEA100B75A95 /* SceneDelegate.swift */; };
-		0065181329A3CEA100B75A95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0065181229A3CEA100B75A95 /* ViewController.swift */; };
+		0065181329A3CEA100B75A95 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0065181229A3CEA100B75A95 /* LoginViewController.swift */; };
 		0065181629A3CEA100B75A95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0065181429A3CEA100B75A95 /* Main.storyboard */; };
 		0065181929A3CEA100B75A95 /* EasyChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0065181729A3CEA100B75A95 /* EasyChat.xcdatamodeld */; };
 		0065181B29A3CEA200B75A95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0065181A29A3CEA200B75A95 /* Assets.xcassets */; };
 		0065181E29A3CEA200B75A95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0065181C29A3CEA200B75A95 /* LaunchScreen.storyboard */; };
+		006A2A9D29A4B6DD00E2B7DC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A2A9C29A4B6DD00E2B7DC /* User.swift */; };
+		006A2A9F29A4B76300E2B7DC /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A2A9E29A4B76300E2B7DC /* ViewModel.swift */; };
+		006A2AA229A4B7BB00E2B7DC /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A2AA129A4B7BB00E2B7DC /* Dynamic.swift */; };
+		006A2AA429A4BECE00E2B7DC /* LoginVC+constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A2AA329A4BECD00E2B7DC /* LoginVC+constraints.swift */; };
 		0AB34E2779806B916D650D0C /* Pods_EasyChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71272C3754FCCDE60933E0 /* Pods_EasyChat.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,12 +25,16 @@
 		0065180B29A3CEA100B75A95 /* EasyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0065180E29A3CEA100B75A95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0065181029A3CEA100B75A95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0065181229A3CEA100B75A95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0065181229A3CEA100B75A95 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0065181529A3CEA100B75A95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0065181829A3CEA100B75A95 /* EasyChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EasyChat.xcdatamodel; sourceTree = "<group>"; };
 		0065181A29A3CEA200B75A95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0065181D29A3CEA200B75A95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0065181F29A3CEA200B75A95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		006A2A9C29A4B6DD00E2B7DC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		006A2A9E29A4B76300E2B7DC /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		006A2AA129A4B7BB00E2B7DC /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		006A2AA329A4BECD00E2B7DC /* LoginVC+constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginVC+constraints.swift"; sourceTree = "<group>"; };
 		3D71272C3754FCCDE60933E0 /* Pods_EasyChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9F3B523E912DB8D3736EBF /* Pods-EasyChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyChat.debug.xcconfig"; path = "Target Support Files/Pods-EasyChat/Pods-EasyChat.debug.xcconfig"; sourceTree = "<group>"; };
 		AED88A278DD0D864BD4C68F2 /* Pods-EasyChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyChat.release.xcconfig"; path = "Target Support Files/Pods-EasyChat/Pods-EasyChat.release.xcconfig"; sourceTree = "<group>"; };
@@ -65,16 +73,60 @@
 		0065180D29A3CEA100B75A95 /* EasyChat */ = {
 			isa = PBXGroup;
 			children = (
+				006A2A9A29A4B64E00E2B7DC /* ViewModels */,
+				006A2A9929A4B64500E2B7DC /* Views */,
+				006A2A9829A4B63900E2B7DC /* Models */,
 				0065180E29A3CEA100B75A95 /* AppDelegate.swift */,
 				0065181029A3CEA100B75A95 /* SceneDelegate.swift */,
-				0065181229A3CEA100B75A95 /* ViewController.swift */,
-				0065181429A3CEA100B75A95 /* Main.storyboard */,
 				0065181A29A3CEA200B75A95 /* Assets.xcassets */,
-				0065181C29A3CEA200B75A95 /* LaunchScreen.storyboard */,
 				0065181F29A3CEA200B75A95 /* Info.plist */,
 				0065181729A3CEA100B75A95 /* EasyChat.xcdatamodeld */,
 			);
 			path = EasyChat;
+			sourceTree = "<group>";
+		};
+		006A2A9829A4B63900E2B7DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				006A2A9C29A4B6DD00E2B7DC /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		006A2A9929A4B64500E2B7DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0065181229A3CEA100B75A95 /* LoginViewController.swift */,
+				006A2AA329A4BECD00E2B7DC /* LoginVC+constraints.swift */,
+				006A2A9B29A4B66200E2B7DC /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		006A2A9A29A4B64E00E2B7DC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				006A2AA029A4B7A900E2B7DC /* Bindings */,
+				006A2A9E29A4B76300E2B7DC /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		006A2A9B29A4B66200E2B7DC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0065181429A3CEA100B75A95 /* Main.storyboard */,
+				0065181C29A3CEA200B75A95 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		006A2AA029A4B7A900E2B7DC /* Bindings */ = {
+			isa = PBXGroup;
+			children = (
+				006A2AA129A4B7BB00E2B7DC /* Dynamic.swift */,
+			);
+			path = Bindings;
 			sourceTree = "<group>";
 		};
 		69A4B6A25DDA53209E59362A /* Frameworks */ = {
@@ -91,7 +143,6 @@
 				6C9F3B523E912DB8D3736EBF /* Pods-EasyChat.debug.xcconfig */,
 				AED88A278DD0D864BD4C68F2 /* Pods-EasyChat.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -210,9 +261,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0065181329A3CEA100B75A95 /* ViewController.swift in Sources */,
+				0065181329A3CEA100B75A95 /* LoginViewController.swift in Sources */,
+				006A2AA429A4BECE00E2B7DC /* LoginVC+constraints.swift in Sources */,
 				0065180F29A3CEA100B75A95 /* AppDelegate.swift in Sources */,
 				0065181129A3CEA100B75A95 /* SceneDelegate.swift in Sources */,
+				006A2AA229A4B7BB00E2B7DC /* Dynamic.swift in Sources */,
+				006A2A9D29A4B6DD00E2B7DC /* User.swift in Sources */,
+				006A2A9F29A4B76300E2B7DC /* ViewModel.swift in Sources */,
 				0065181929A3CEA100B75A95 /* EasyChat.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
