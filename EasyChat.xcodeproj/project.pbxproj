@@ -18,6 +18,8 @@
 		006A2A9F29A4B76300E2B7DC /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A2A9E29A4B76300E2B7DC /* ViewModel.swift */; };
 		006A2AA229A4B7BB00E2B7DC /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A2AA129A4B7BB00E2B7DC /* Dynamic.swift */; };
 		006A2AA429A4BECE00E2B7DC /* LoginVC+constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A2AA329A4BECD00E2B7DC /* LoginVC+constraints.swift */; };
+		006A2AA629A4D84500E2B7DC /* LoginVC+statusBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A2AA529A4D84500E2B7DC /* LoginVC+statusBinding.swift */; };
+		006A2AA829A4D89200E2B7DC /* LoginVC+loginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A2AA729A4D89200E2B7DC /* LoginVC+loginButton.swift */; };
 		0AB34E2779806B916D650D0C /* Pods_EasyChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71272C3754FCCDE60933E0 /* Pods_EasyChat.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +37,8 @@
 		006A2A9E29A4B76300E2B7DC /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		006A2AA129A4B7BB00E2B7DC /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
 		006A2AA329A4BECD00E2B7DC /* LoginVC+constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginVC+constraints.swift"; sourceTree = "<group>"; };
+		006A2AA529A4D84500E2B7DC /* LoginVC+statusBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginVC+statusBinding.swift"; sourceTree = "<group>"; };
+		006A2AA729A4D89200E2B7DC /* LoginVC+loginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginVC+loginButton.swift"; sourceTree = "<group>"; };
 		3D71272C3754FCCDE60933E0 /* Pods_EasyChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9F3B523E912DB8D3736EBF /* Pods-EasyChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyChat.debug.xcconfig"; path = "Target Support Files/Pods-EasyChat/Pods-EasyChat.debug.xcconfig"; sourceTree = "<group>"; };
 		AED88A278DD0D864BD4C68F2 /* Pods-EasyChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyChat.release.xcconfig"; path = "Target Support Files/Pods-EasyChat/Pods-EasyChat.release.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 			children = (
 				0065181229A3CEA100B75A95 /* LoginViewController.swift */,
 				006A2AA329A4BECD00E2B7DC /* LoginVC+constraints.swift */,
+				006A2AA529A4D84500E2B7DC /* LoginVC+statusBinding.swift */,
+				006A2AA729A4D89200E2B7DC /* LoginVC+loginButton.swift */,
 				006A2A9B29A4B66200E2B7DC /* Storyboards */,
 			);
 			path = Views;
@@ -265,7 +271,9 @@
 				006A2AA429A4BECE00E2B7DC /* LoginVC+constraints.swift in Sources */,
 				0065180F29A3CEA100B75A95 /* AppDelegate.swift in Sources */,
 				0065181129A3CEA100B75A95 /* SceneDelegate.swift in Sources */,
+				006A2AA629A4D84500E2B7DC /* LoginVC+statusBinding.swift in Sources */,
 				006A2AA229A4B7BB00E2B7DC /* Dynamic.swift in Sources */,
+				006A2AA829A4D89200E2B7DC /* LoginVC+loginButton.swift in Sources */,
 				006A2A9D29A4B6DD00E2B7DC /* User.swift in Sources */,
 				006A2A9F29A4B76300E2B7DC /* ViewModel.swift in Sources */,
 				0065181929A3CEA100B75A95 /* EasyChat.xcdatamodeld in Sources */,
