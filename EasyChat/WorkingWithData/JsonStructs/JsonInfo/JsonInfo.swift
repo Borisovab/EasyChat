@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+struct JsonInfo<Response: Decodable>: Decodable {
+    let response: Response
+}
