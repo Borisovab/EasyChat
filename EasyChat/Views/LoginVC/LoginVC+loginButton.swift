@@ -14,8 +14,6 @@ extension LoginViewController {
     }
 
     @objc func enterButtonAction() {
-        print("Logged IN")
-
         guard let viewModel = viewModel
         else { return }
 
