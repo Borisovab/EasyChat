@@ -14,6 +14,16 @@ extension LoginViewController {
     }
 
     @objc func enterButtonAction() {
-        viewModel.userButtonPressed(login: loginTF.text ?? "", password: passwordTF.text ?? "")
+        print("Logged IN")
+
+        guard let viewModel = viewModel
+        else { return }
+
+        viewModel.userButtonPressed(login: (loginTF.text ?? ""), password: (passwordTF.text ?? ""))
+
+        if viewModel.isLoggedIn {
+            coordinator?.isLoggedIn = viewModel.isLoggedIn
+            coordinator?.showTabBar()
+        }
     }
 }

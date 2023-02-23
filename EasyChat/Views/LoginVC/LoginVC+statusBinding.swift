@@ -9,6 +9,9 @@ import Foundation
 
 extension LoginViewController {
     func bindViewModel() {
+        guard let viewModel = viewModel
+        else { return }
+        
         viewModel.statusText.bind { statusText in
             DispatchQueue.main.async {
                 self.statusLabel.text = statusText
