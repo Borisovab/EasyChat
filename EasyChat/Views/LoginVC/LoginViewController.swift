@@ -7,7 +7,10 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class LoginViewController: UIViewController, AdapterViewControllers {
+
+    var viewModel: LoginViewModel?
+    weak var coordinator: AppCoordinator?
 
     var headerLabel: UILabel = {
         let label = UILabel()
@@ -67,10 +70,10 @@ class LoginViewController: UIViewController {
         return button
     }()
 
-    var viewModel = ViewModel()
-
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+        
         setupConstraints()
         bindViewModel()
         enterButtonPressed()

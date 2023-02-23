@@ -8,25 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		0065180F29A3CEA100B75A95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0065180E29A3CEA100B75A95 /* AppDelegate.swift */; };
-		0065181129A3CEA100B75A95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0065181029A3CEA100B75A95 /* SceneDelegate.swift */; };
 		0065181329A3CEA100B75A95 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0065181229A3CEA100B75A95 /* LoginViewController.swift */; };
 		0065181629A3CEA100B75A95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0065181429A3CEA100B75A95 /* Main.storyboard */; };
 		0065181929A3CEA100B75A95 /* EasyChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0065181729A3CEA100B75A95 /* EasyChat.xcdatamodeld */; };
 		0065181B29A3CEA200B75A95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0065181A29A3CEA200B75A95 /* Assets.xcassets */; };
 		0065181E29A3CEA200B75A95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0065181C29A3CEA200B75A95 /* LaunchScreen.storyboard */; };
 		006A2A9D29A4B6DD00E2B7DC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A2A9C29A4B6DD00E2B7DC /* User.swift */; };
-		006A2A9F29A4B76300E2B7DC /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A2A9E29A4B76300E2B7DC /* ViewModel.swift */; };
+		006A2A9F29A4B76300E2B7DC /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A2A9E29A4B76300E2B7DC /* LoginViewModel.swift */; };
 		006A2AA229A4B7BB00E2B7DC /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A2AA129A4B7BB00E2B7DC /* Dynamic.swift */; };
 		006A2AA429A4BECE00E2B7DC /* LoginVC+constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A2AA329A4BECD00E2B7DC /* LoginVC+constraints.swift */; };
 		006A2AA629A4D84500E2B7DC /* LoginVC+statusBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A2AA529A4D84500E2B7DC /* LoginVC+statusBinding.swift */; };
 		006A2AA829A4D89200E2B7DC /* LoginVC+loginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A2AA729A4D89200E2B7DC /* LoginVC+loginButton.swift */; };
+		006A2AE329A73C1F00E2B7DC /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A2AE229A73C1F00E2B7DC /* TabBarController.swift */; };
+		006A2AE829A73C6800E2B7DC /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A2AE729A73C6800E2B7DC /* NewsViewController.swift */; };
+		006A2AEA29A73C7C00E2B7DC /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A2AE929A73C7C00E2B7DC /* FriendsViewController.swift */; };
+		006A2AEC29A73C8D00E2B7DC /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A2AEB29A73C8D00E2B7DC /* GroupsViewController.swift */; };
+		006A2AEE29A7409800E2B7DC /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A2AED29A7409800E2B7DC /* UIColorExtension.swift */; };
+		006A2AF229A742F500E2B7DC /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A2AF129A742F500E2B7DC /* Coordinator.swift */; };
+		006A2AF429A7438200E2B7DC /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A2AF329A7438200E2B7DC /* AppCoordinator.swift */; };
+		006A2AF729A744A500E2B7DC /* AdapterViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A2AF629A744A500E2B7DC /* AdapterViewControllers.swift */; };
+		006A2AF929A7476600E2B7DC /* AdapterTabBarControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A2AF829A7476600E2B7DC /* AdapterTabBarControllers.swift */; };
 		0AB34E2779806B916D650D0C /* Pods_EasyChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71272C3754FCCDE60933E0 /* Pods_EasyChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0065180B29A3CEA100B75A95 /* EasyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0065180E29A3CEA100B75A95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0065181029A3CEA100B75A95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0065181229A3CEA100B75A95 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0065181529A3CEA100B75A95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0065181829A3CEA100B75A95 /* EasyChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EasyChat.xcdatamodel; sourceTree = "<group>"; };
@@ -34,11 +41,20 @@
 		0065181D29A3CEA200B75A95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0065181F29A3CEA200B75A95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		006A2A9C29A4B6DD00E2B7DC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		006A2A9E29A4B76300E2B7DC /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		006A2A9E29A4B76300E2B7DC /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		006A2AA129A4B7BB00E2B7DC /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
 		006A2AA329A4BECD00E2B7DC /* LoginVC+constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginVC+constraints.swift"; sourceTree = "<group>"; };
 		006A2AA529A4D84500E2B7DC /* LoginVC+statusBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginVC+statusBinding.swift"; sourceTree = "<group>"; };
 		006A2AA729A4D89200E2B7DC /* LoginVC+loginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginVC+loginButton.swift"; sourceTree = "<group>"; };
+		006A2AE229A73C1F00E2B7DC /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		006A2AE729A73C6800E2B7DC /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		006A2AE929A73C7C00E2B7DC /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		006A2AEB29A73C8D00E2B7DC /* GroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
+		006A2AED29A7409800E2B7DC /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		006A2AF129A742F500E2B7DC /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		006A2AF329A7438200E2B7DC /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		006A2AF629A744A500E2B7DC /* AdapterViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterViewControllers.swift; sourceTree = "<group>"; };
+		006A2AF829A7476600E2B7DC /* AdapterTabBarControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterTabBarControllers.swift; sourceTree = "<group>"; };
 		3D71272C3754FCCDE60933E0 /* Pods_EasyChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9F3B523E912DB8D3736EBF /* Pods-EasyChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyChat.debug.xcconfig"; path = "Target Support Files/Pods-EasyChat/Pods-EasyChat.debug.xcconfig"; sourceTree = "<group>"; };
 		AED88A278DD0D864BD4C68F2 /* Pods-EasyChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyChat.release.xcconfig"; path = "Target Support Files/Pods-EasyChat/Pods-EasyChat.release.xcconfig"; sourceTree = "<group>"; };
@@ -77,11 +93,11 @@
 		0065180D29A3CEA100B75A95 /* EasyChat */ = {
 			isa = PBXGroup;
 			children = (
+				006A2AEF29A742D000E2B7DC /* Coordinators */,
 				006A2A9A29A4B64E00E2B7DC /* ViewModels */,
 				006A2A9929A4B64500E2B7DC /* Views */,
 				006A2A9829A4B63900E2B7DC /* Models */,
 				0065180E29A3CEA100B75A95 /* AppDelegate.swift */,
-				0065181029A3CEA100B75A95 /* SceneDelegate.swift */,
 				0065181A29A3CEA200B75A95 /* Assets.xcassets */,
 				0065181F29A3CEA200B75A95 /* Info.plist */,
 				0065181729A3CEA100B75A95 /* EasyChat.xcdatamodeld */,
@@ -100,10 +116,12 @@
 		006A2A9929A4B64500E2B7DC /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				0065181229A3CEA100B75A95 /* LoginViewController.swift */,
-				006A2AA329A4BECD00E2B7DC /* LoginVC+constraints.swift */,
-				006A2AA529A4D84500E2B7DC /* LoginVC+statusBinding.swift */,
-				006A2AA729A4D89200E2B7DC /* LoginVC+loginButton.swift */,
+				006A2AF529A7446A00E2B7DC /* Protocols */,
+				006A2AE129A73BC400E2B7DC /* TabBarVC */,
+				006A2AE629A73C4300E2B7DC /* NewsVC */,
+				006A2AE429A73C2B00E2B7DC /* FriendsVC */,
+				006A2AE529A73C3700E2B7DC /* GroupsVC */,
+				006A2AE029A73BAE00E2B7DC /* LoginVC */,
 				006A2A9B29A4B66200E2B7DC /* Storyboards */,
 			);
 			path = Views;
@@ -113,7 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				006A2AA029A4B7A900E2B7DC /* Bindings */,
-				006A2A9E29A4B76300E2B7DC /* ViewModel.swift */,
+				006A2A9E29A4B76300E2B7DC /* LoginViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -133,6 +151,76 @@
 				006A2AA129A4B7BB00E2B7DC /* Dynamic.swift */,
 			);
 			path = Bindings;
+			sourceTree = "<group>";
+		};
+		006A2AE029A73BAE00E2B7DC /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				0065181229A3CEA100B75A95 /* LoginViewController.swift */,
+				006A2AA329A4BECD00E2B7DC /* LoginVC+constraints.swift */,
+				006A2AA529A4D84500E2B7DC /* LoginVC+statusBinding.swift */,
+				006A2AA729A4D89200E2B7DC /* LoginVC+loginButton.swift */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		006A2AE129A73BC400E2B7DC /* TabBarVC */ = {
+			isa = PBXGroup;
+			children = (
+				006A2AE229A73C1F00E2B7DC /* TabBarController.swift */,
+				006A2AED29A7409800E2B7DC /* UIColorExtension.swift */,
+			);
+			path = TabBarVC;
+			sourceTree = "<group>";
+		};
+		006A2AE429A73C2B00E2B7DC /* FriendsVC */ = {
+			isa = PBXGroup;
+			children = (
+				006A2AE929A73C7C00E2B7DC /* FriendsViewController.swift */,
+			);
+			path = FriendsVC;
+			sourceTree = "<group>";
+		};
+		006A2AE529A73C3700E2B7DC /* GroupsVC */ = {
+			isa = PBXGroup;
+			children = (
+				006A2AEB29A73C8D00E2B7DC /* GroupsViewController.swift */,
+			);
+			path = GroupsVC;
+			sourceTree = "<group>";
+		};
+		006A2AE629A73C4300E2B7DC /* NewsVC */ = {
+			isa = PBXGroup;
+			children = (
+				006A2AE729A73C6800E2B7DC /* NewsViewController.swift */,
+			);
+			path = NewsVC;
+			sourceTree = "<group>";
+		};
+		006A2AEF29A742D000E2B7DC /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				006A2AF029A742E000E2B7DC /* Protocols */,
+				006A2AF329A7438200E2B7DC /* AppCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		006A2AF029A742E000E2B7DC /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				006A2AF129A742F500E2B7DC /* Coordinator.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		006A2AF529A7446A00E2B7DC /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				006A2AF629A744A500E2B7DC /* AdapterViewControllers.swift */,
+				006A2AF829A7476600E2B7DC /* AdapterTabBarControllers.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		69A4B6A25DDA53209E59362A /* Frameworks */ = {
@@ -268,14 +356,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				0065181329A3CEA100B75A95 /* LoginViewController.swift in Sources */,
+				006A2AEE29A7409800E2B7DC /* UIColorExtension.swift in Sources */,
+				006A2AF229A742F500E2B7DC /* Coordinator.swift in Sources */,
+				006A2AF929A7476600E2B7DC /* AdapterTabBarControllers.swift in Sources */,
 				006A2AA429A4BECE00E2B7DC /* LoginVC+constraints.swift in Sources */,
+				006A2AF429A7438200E2B7DC /* AppCoordinator.swift in Sources */,
+				006A2AF729A744A500E2B7DC /* AdapterViewControllers.swift in Sources */,
 				0065180F29A3CEA100B75A95 /* AppDelegate.swift in Sources */,
-				0065181129A3CEA100B75A95 /* SceneDelegate.swift in Sources */,
+				006A2AE329A73C1F00E2B7DC /* TabBarController.swift in Sources */,
+				006A2AEA29A73C7C00E2B7DC /* FriendsViewController.swift in Sources */,
+				006A2AEC29A73C8D00E2B7DC /* GroupsViewController.swift in Sources */,
+				006A2AE829A73C6800E2B7DC /* NewsViewController.swift in Sources */,
 				006A2AA629A4D84500E2B7DC /* LoginVC+statusBinding.swift in Sources */,
 				006A2AA229A4B7BB00E2B7DC /* Dynamic.swift in Sources */,
 				006A2AA829A4D89200E2B7DC /* LoginVC+loginButton.swift in Sources */,
 				006A2A9D29A4B6DD00E2B7DC /* User.swift in Sources */,
-				006A2A9F29A4B76300E2B7DC /* ViewModel.swift in Sources */,
+				006A2A9F29A4B76300E2B7DC /* LoginViewModel.swift in Sources */,
 				0065181929A3CEA100B75A95 /* EasyChat.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,7 +525,6 @@
 				INFOPLIST_FILE = EasyChat/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -458,7 +553,6 @@
 				INFOPLIST_FILE = EasyChat/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
