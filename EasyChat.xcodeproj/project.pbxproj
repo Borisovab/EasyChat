@@ -28,6 +28,9 @@
 		006A2AF429A7438200E2B7DC /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A2AF329A7438200E2B7DC /* AppCoordinator.swift */; };
 		006A2AF729A744A500E2B7DC /* AdapterViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A2AF629A744A500E2B7DC /* AdapterViewControllers.swift */; };
 		006A2AF929A7476600E2B7DC /* AdapterTabBarControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A2AF829A7476600E2B7DC /* AdapterTabBarControllers.swift */; };
+		006A2AFD29A761A100E2B7DC /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A2AFC29A761A100E2B7DC /* NetworkController.swift */; };
+		006A2AFF29A761CB00E2B7DC /* NetworkerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A2AFE29A761CB00E2B7DC /* NetworkerProtocol.swift */; };
+		006A2B0329A7641B00E2B7DC /* JsonInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006A2B0229A7641B00E2B7DC /* JsonInfo.swift */; };
 		0AB34E2779806B916D650D0C /* Pods_EasyChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71272C3754FCCDE60933E0 /* Pods_EasyChat.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +58,9 @@
 		006A2AF329A7438200E2B7DC /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		006A2AF629A744A500E2B7DC /* AdapterViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterViewControllers.swift; sourceTree = "<group>"; };
 		006A2AF829A7476600E2B7DC /* AdapterTabBarControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterTabBarControllers.swift; sourceTree = "<group>"; };
+		006A2AFC29A761A100E2B7DC /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		006A2AFE29A761CB00E2B7DC /* NetworkerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkerProtocol.swift; sourceTree = "<group>"; };
+		006A2B0229A7641B00E2B7DC /* JsonInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonInfo.swift; sourceTree = "<group>"; };
 		3D71272C3754FCCDE60933E0 /* Pods_EasyChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9F3B523E912DB8D3736EBF /* Pods-EasyChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyChat.debug.xcconfig"; path = "Target Support Files/Pods-EasyChat/Pods-EasyChat.debug.xcconfig"; sourceTree = "<group>"; };
 		AED88A278DD0D864BD4C68F2 /* Pods-EasyChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyChat.release.xcconfig"; path = "Target Support Files/Pods-EasyChat/Pods-EasyChat.release.xcconfig"; sourceTree = "<group>"; };
@@ -93,6 +99,7 @@
 		0065180D29A3CEA100B75A95 /* EasyChat */ = {
 			isa = PBXGroup;
 			children = (
+				006A2AFA29A7616900E2B7DC /* WorkingWithData */,
 				006A2AEF29A742D000E2B7DC /* Coordinators */,
 				006A2A9A29A4B64E00E2B7DC /* ViewModels */,
 				006A2A9929A4B64500E2B7DC /* Views */,
@@ -221,6 +228,40 @@
 				006A2AF829A7476600E2B7DC /* AdapterTabBarControllers.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		006A2AFA29A7616900E2B7DC /* WorkingWithData */ = {
+			isa = PBXGroup;
+			children = (
+				006A2B0029A763EA00E2B7DC /* JsonStructs */,
+				006A2AFB29A7618700E2B7DC /* Network */,
+			);
+			path = WorkingWithData;
+			sourceTree = "<group>";
+		};
+		006A2AFB29A7618700E2B7DC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				006A2AFE29A761CB00E2B7DC /* NetworkerProtocol.swift */,
+				006A2AFC29A761A100E2B7DC /* NetworkController.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		006A2B0029A763EA00E2B7DC /* JsonStructs */ = {
+			isa = PBXGroup;
+			children = (
+				006A2B0129A763FB00E2B7DC /* JsonInfo */,
+			);
+			path = JsonStructs;
+			sourceTree = "<group>";
+		};
+		006A2B0129A763FB00E2B7DC /* JsonInfo */ = {
+			isa = PBXGroup;
+			children = (
+				006A2B0229A7641B00E2B7DC /* JsonInfo.swift */,
+			);
+			path = JsonInfo;
 			sourceTree = "<group>";
 		};
 		69A4B6A25DDA53209E59362A /* Frameworks */ = {
@@ -356,8 +397,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0065181329A3CEA100B75A95 /* LoginViewController.swift in Sources */,
+				006A2AFD29A761A100E2B7DC /* NetworkController.swift in Sources */,
 				006A2AEE29A7409800E2B7DC /* UIColorExtension.swift in Sources */,
 				006A2AF229A742F500E2B7DC /* Coordinator.swift in Sources */,
+				006A2B0329A7641B00E2B7DC /* JsonInfo.swift in Sources */,
 				006A2AF929A7476600E2B7DC /* AdapterTabBarControllers.swift in Sources */,
 				006A2AA429A4BECE00E2B7DC /* LoginVC+constraints.swift in Sources */,
 				006A2AF429A7438200E2B7DC /* AppCoordinator.swift in Sources */,
@@ -371,6 +414,7 @@
 				006A2AA229A4B7BB00E2B7DC /* Dynamic.swift in Sources */,
 				006A2AA829A4D89200E2B7DC /* LoginVC+loginButton.swift in Sources */,
 				006A2A9D29A4B6DD00E2B7DC /* User.swift in Sources */,
+				006A2AFF29A761CB00E2B7DC /* NetworkerProtocol.swift in Sources */,
 				006A2A9F29A4B76300E2B7DC /* LoginViewModel.swift in Sources */,
 				0065181929A3CEA100B75A95 /* EasyChat.xcdatamodeld in Sources */,
 			);

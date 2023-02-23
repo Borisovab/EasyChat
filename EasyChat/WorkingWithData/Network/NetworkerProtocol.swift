@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol NetworkerProtocol {
+    func load<Model: Decodable>(request: URL, completion: @escaping (Model?) -> Void)
+}
